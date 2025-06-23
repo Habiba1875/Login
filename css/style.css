@@ -1,0 +1,110 @@
+body {
+  background-color: #FFF2EB;
+  font-family: "Rum Raisin", sans-serif;
+  letter-spacing: 2px;
+}
+
+/* -------------------- index ----------------------- */
+.mycard {
+  width: 400px;
+  padding: 20px;
+  background: #FFDCDC;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #3B3B1A;
+}
+
+.btn-peach {
+  background-color: #F0BB78;
+  border: none;
+  width: fit-content;
+  margin: auto;
+  border-radius: 3px;
+  padding: 10px 30px;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.btn-peach:hover {
+  background-color: #ffae57;
+  color: white;
+}
+
+a {
+  color: #3B3B1A;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* -------------------- dashboard ----------------------- */
+.bg-pink {
+  background-color: #F0BB78;
+}
+
+.navbar-brand {
+  font-family: "Rum Raisin", sans-serif;
+  font-size: 30px;
+  line-height: 26px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: #FFFCFB;
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus {
+  color: #FFFCFB;
+  text-decoration: none;
+}
+
+.btn-nav {
+  border: 3px solid #FFF2EB;
+  border-radius: 5px;
+  padding: 5px 15px;
+  cursor: pointer;
+  font-size: 20px;
+  letter-spacing: 1px;
+  border: none;
+}
+
+.btn-nav:hover,
+.btn-nav:focus,
+.btn-nav:active {
+  background-color: #FFF2EB;
+}
+
+.btn-nav a{
+  color: #FFF2EB;
+  text-decoration: none;
+}
+
+.btn-nav:hover a,
+.btn-nav:focus a,
+.btn-nav:active a {
+  color: #F0BB78;
+  text-decoration: none;
+}
+
+.my-dash {
+  padding: 20px;
+  width: 700px;
+  background-color: #FFDCDC;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #3B3B1A;
+}
