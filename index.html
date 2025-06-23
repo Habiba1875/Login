@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rum+Raisin&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/media.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Login</title>
+</head>
+
+<body>
+  <div class="container vh-100 d-flex justify-content-center align-items-center">
+    <div class="mycard d-flex flex-column gap-3">
+      <h2>Smart Log In</h2>
+      <input type="email" name="signedInEmail" id="signedInEmail" class="form-control" placeholder="Enter your email">
+      <input type="password" name="signedInPassword" class="form-control" id="signedInPassword"
+        placeholder="Enter your password">
+      <p class="text-danger d-none" id="signInError">email or password is incorrect</p>
+      <button class="btn btn-peach" onclick="login()">Login</button>
+      <p>Don't have an account? <a href="register.html">Sign Up</a></p>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
