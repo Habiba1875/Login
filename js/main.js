@@ -14,7 +14,6 @@ function register() {
   registerError.classList.add("d-none");
   emptyInputError.classList.add("d-none");
   registerSuccess.classList.add("d-none");
-
   var name = userName.value.trim();
   var email = registerEmail.value.trim();
   var password = registerPassword.value.trim();
@@ -34,10 +33,6 @@ function register() {
       return
     }
   }
-  if (!name || !email || !password) {
-    emptyInputError.classList.remove("d-none")
-    return
-  }
   var user = {
     userName: name,
     email: registerEmail.value,
@@ -46,10 +41,6 @@ function register() {
   users.push(user)
   localStorage.setItem("users", JSON.stringify(users))
   registerSuccess.classList.remove("d-none")
-
-
-  registerSuccess.classList.remove("d-none")
-
 }
 function login() {
   var flag = false
@@ -77,7 +68,6 @@ function displayDashboard() {
     var box = `<h1 class="text-center">Welcome ${localStorage.getItem("currentUserName")}</h1>`;
     dashboard.innerHTML = box;
   }
-
 }
 
 displayDashboard()
